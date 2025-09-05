@@ -2,7 +2,7 @@
   "name": "Redirect Unauthenticated Users",
   "alias": "redirectunauthenticated",
   "description": "Redirect unauthenticated users from the End User Portal to the authentication page",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "author": "PodcasterPlus",
   "author_url": "https://www.podcasterplus.com",
   "display_name": "Redirect Unauthenticated Users",
@@ -15,5 +15,5 @@
   ],
   "aliases": {},
   "files": [],
-  "requires": ["enduserpayments"]
+  "requires": []
 }
