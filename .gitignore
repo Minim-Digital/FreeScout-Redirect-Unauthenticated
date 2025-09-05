@@ -1,0 +1,165 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+/local.env
+.env
+.env.*
+!.env.example
+cookies.txt
+*.cookies
+
+# Editor and IDE directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+.cursorrules
+.cursorignore
+.cursor/
+.prettierrc
+.eslintignore
+/_notes/
+
+# Claude Files and directories
+.claude
+.claude/settings.local.json
+CLAUDE.md
+**/CLAUDE.md
+CLAUDE.local.md
+**/CLAUDE.local.md
+
+# OS specific
+.DS_Store
+
+# WordPress - Ignore core, configuration, examples, uploads, and logs
+# Reference: https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+# htaccess
+/.htaccess
+
+# Ignore all plugins
+# Note: Uncomment to whitelist specific plugins
+#/wp-content/plugins
+
+# Ignore all themes
+# Note: Uncomment to whitelist specific themes
+#/wp-content/themes
+
+# Composer - Ignore vendor directory and lock file, but allow SureCart SDK
+/vendor/
+!/vendor/surecart/
+/composer.lock
+
+# macOS - Ignore system files
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Thumbs.db
+Thumbs.db
+
+# Other system files
+*.swp
+*.swo
+
+# OS Files
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.sass-cache/
+
+# SFTP config file
+ftpconfig.json
+
+# Ignore error logs and debug logs
+error_log
+debug.log
+
+# Ignore WP CLI files
+wp-cli.local.yml
+
+# Ignore the plugin's build files
+/build/
+/test-interactive/build/
+*.zip
+
+# Generated minified assets
+/assets/*.min.js
+/assets/*.min.css
+
+# Ignore PHPUnit files if testing
+/phpunit.xml.dist
+addons/.phpunit.result.cache
+.phpunit.result.cache
+
+# Ignore compiled assets
+/dist/
+
+# Ignore npm/yarn build files
+/yarn-error.log
+package-lock.json
+
+# Cache directories
+.cache/
+.npm/
+.pnpm-store/
+
+# Task Master files
+.taskmaster/
+tasks.json
+tasks/ 
+README-task-master.md
+scripts/example_prd.txt
+scripts/prd.txt
+scripts/task-complexity-report.json
+
+# Example files
+EndUserPortal/
+
+# MCP Server files
+.mcp.json
