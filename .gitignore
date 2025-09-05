@@ -46,48 +46,8 @@ CLAUDE.local.md
 # OS specific
 .DS_Store
 
-# WordPress - Ignore core, configuration, examples, uploads, and logs
-# Reference: https://github.com/github/gitignore/blob/main/WordPress.gitignore
-
-# Core
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
-
-# Configuration
-wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
-/wp-content/uploads/
-
-# htaccess
-/.htaccess
-
-# Ignore all plugins
-# Note: Uncomment to whitelist specific plugins
-#/wp-content/plugins
-
-# Ignore all themes
-# Note: Uncomment to whitelist specific themes
-#/wp-content/themes
-
 # Composer - Ignore vendor directory and lock file, but allow SureCart SDK
 /vendor/
-!/vendor/surecart/
 /composer.lock
 
 # macOS - Ignore system files
@@ -163,3 +123,6 @@ EndUserPortal/
 
 # MCP Server files
 .mcp.json
+
+# Documentation files
+docs/
