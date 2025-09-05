@@ -1,0 +1,19 @@
+{
+  "name": "Redirect Unauthenticated Users",
+  "alias": "redirectunauthenticated",
+  "description": "Redirect unauthenticated users from the End User Portal to the authentication page",
+  "version": "1.0.0",
+  "author": "PodcasterPlus",
+  "author_url": "https://www.podcasterplus.com",
+  "display_name": "Redirect Unauthenticated Users",
+  "license": "MIT",
+  "keywords": ["freescout", "auth", "portal", "redirect"],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\RedirectUnauthenticated\\Providers\\RedirectUnauthenticatedServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": ["enduserpayments"]
+}
